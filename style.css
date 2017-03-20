@@ -1,4 +1,43 @@
 
 
-p {font-family: "Comic Sans"; color: "red"}
-.Clickables {color: "green";}
+p {
+	font-family: "Comic Sans MS"; 
+	color: red;
+}
+.Clickables {
+	color: white;
+}
+ul {
+
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: fixed;
+}
+li {
+	border: 3px solid #0000CD;
+	padding: 8px 16px;
+	display: block;
+	width: 120px;
+	background-color: #1E90FF;
+
+}
+
+li a {
+    color: #000;
+
+}
+
+li:hover {
+	background-color: #00FFFF;
+}
+
+
+
+#Head {
+	display: block;
+	border: 5px solid black;
+	padding: 0;
+	background-color: gray;
+
+}
